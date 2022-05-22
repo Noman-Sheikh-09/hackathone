@@ -1,0 +1,19 @@
+.n-roots{
+ background: transparent;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.nav-logo{
+
+font-size: large;
+}
+.login-btn{
+    text-decoration: none;
+    color: black;
+}
+.home-logo{
+
+    text-align: center;
+    text-decoration: none;
+}

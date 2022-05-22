@@ -1,0 +1,36 @@
+
+.hero-banner {
+  width: 80%;
+  height: 70vh;
+  background: url(../../assets/baner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.hero-title {
+  color: rgb(103, 2, 2);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+/* .top-banner {
+  width: 100%;
+  height: 100vh;
+
+  background: url(../../assets/sale.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.top-title{
+  text-align: center;
+  font-weight: bold;
+
+}
