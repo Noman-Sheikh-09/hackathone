@@ -15,9 +15,12 @@ export default function Home() {
       <Navbar />
       
       <Grid container align="center" sx={{marginTop:'70px'}}>
-        <Grid item xs={12} sm={12} md={6} lg={6} align="center">
+        <Grid item xs={12} sm={12} md={12} lg={12} align="center">
+        
+ <Zoom>
+        <Paper elevation={10} color="inherit" className="hero-banner">
         <Fade left>
-            <Typography variant="h3"  className="top-title">
+            <Typography variant="h1"  className="top-title">
               <Typed
                 strings={[" We are Here for you", "We Have Best Services", "And Offers For you"]}
                 typeSpeed={100}
@@ -26,15 +29,14 @@ export default function Home() {
               />
             </Typography>
           </Fade>
+        </Paper>
+      </Zoom>
         </Grid>
 
       </Grid>
      
     
-      <Zoom>
-        <Paper elevation={10} color="inherit" className="hero-banner">
-        </Paper>
-      </Zoom>
+     
 
       <br />
       <Products />
